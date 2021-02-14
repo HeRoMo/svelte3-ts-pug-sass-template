@@ -2,7 +2,7 @@
 
 ---
 
-# svelte app develop using Typescript, Pug and Sass
+# svelte app, using Typescript, Pug and Sass
 
 This is a project template for [Svelte](https://svelte.dev) apps with Typescript, Pug and Sass. 
 It lives at https://github.com/HeRoMo/svelte3-ts-pug-sass-template.
