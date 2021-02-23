@@ -1,5 +1,3 @@
-const ts = require('typescript');
-
 module.exports = {
   env: {
     browser: true,
@@ -30,10 +28,12 @@ module.exports = {
     'public/build/*',
   ],
   settings: {
-    'svelte3/typescript': ts, // pass the TypeScript package to the Svelte plugin
+    'svelte3/typescript': require('typescript'), // eslint-disable-line global-require
+    'svelte3/ignore-styles': (attributes) => attributes.lang && attributes.lang === 'sass',
   },
   rules: {
-    'import/no-extraneous-dependencies': 'off',
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+    'import/no-mutable-exports': 'off',
     'import/prefer-default-export': 'off',
   },
 };
