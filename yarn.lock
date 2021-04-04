@@ -4899,10 +4899,10 @@ supports-hyperlinks@^2.0.0:
     has-flag "^4.0.0"
     supports-color "^7.0.0"
 
-svelte-check@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-1.2.2.tgz#823e5b940b4704e3adcbbf72003960e92c337358"
-  integrity sha512-epvziaooxU9pkyySiYt3JFM3ISZLwpkaYo4NWV0mT+m1arUwe5ET2YtoxASJtXedjDrIeSAMy1gKwQ2q44YCDA==
+svelte-check@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-1.3.0.tgz#1fda3c3588f5f09347dbba06eaf40576095ba3d7"
+  integrity sha512-FMLZr/wv9S0MzCALo9BlHYyu1wlgXRdHWSjXDiknhraL9Igm0EVb00/tR6CMJ7j4q2kphRIEYcSRQJ7AtXHk+g==
   dependencies:
     chalk "^4.0.0"
     chokidar "^3.4.1"
@@ -4913,10 +4913,10 @@ svelte-check@^1.2.2:
     svelte-preprocess "^4.0.0"
     typescript "*"
 
-svelte-jester@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/svelte-jester/-/svelte-jester-1.3.0.tgz#f7de754d581ba73418506a915f6a041e6b008fc3"
-  integrity sha512-WzWm+S98+RE623/JYzyjh5G8s8oSIaM6KeLLLXxxBFh/c0TlmuhPYIFhgA9GuovnQy6d/eBgJ8ogHyuBX29W3Q==
+svelte-jester@^1.3.2:
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/svelte-jester/-/svelte-jester-1.3.2.tgz#eee62b9aed2ea5d28698354e75bf71ff74675bb2"
+  integrity sha512-u8EWl5phmZjE2UgjJEDCQ4crcEm7k8ICj1Vs2PlZNjvAem3X3+veBER2SEJ8xJtFSRICYsYCRezW76w5QqOIqQ==
   dependencies:
     cosmiconfig "^6.0.0"
 
@@ -4930,10 +4930,20 @@ svelte-preprocess@^4.0.0:
     detect-indent "^6.0.0"
     strip-indent "^3.0.0"
 
-svelte@^3.35.0:
-  version "3.35.0"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.35.0.tgz#e0d0ba60c4852181c2b4fd851194be6fda493e65"
-  integrity sha512-gknlZkR2sXheu/X+B7dDImwANVvK1R0QGQLd8CNIfxxGPeXBmePnxfzb6fWwTQRsYQG7lYkZXvpXJvxvpsoB7g==
+svelte-preprocess@^4.7.0:
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-4.7.0.tgz#10a0acf1a8b1afdd7e0aff3769f4175eb77776fe"
+  integrity sha512-iNrY4YGqi0LD2e6oT9YbdSzOKntxk8gmzfqso1z/lUJOZh4o6fyIqkirmiZ8/dDJFqtIE1spVgDFWgkfhLEYlw==
+  dependencies:
+    "@types/pug" "^2.0.4"
+    "@types/sass" "^1.16.0"
+    detect-indent "^6.0.0"
+    strip-indent "^3.0.0"
+
+svelte@^3.37.0:
+  version "3.37.0"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.37.0.tgz#dc7cd24bcc275cdb3f8c684ada89e50489144ccd"
+  integrity sha512-TRF30F4W4+d+Jr2KzUUL1j8Mrpns/WM/WacxYlo5MMb2E5Qy2Pk1Guj6GylxsW9OnKQl1tnF8q3hG/hQ3h6VUA==
 
 symbol-tree@^3.2.4:
   version "3.2.4"
